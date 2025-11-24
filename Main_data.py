@@ -1,0 +1,11 @@
+main_dict={}
+all_rooms=[]
+check_in=0
+security_check_in={}
+security_check_out={}
+check_out=0
+food_menu={}
+price=0
+room_complains=["room complains-"]
+room_cleaning=[0]
+bill={}
