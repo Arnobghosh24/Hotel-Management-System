@@ -1,6 +1,5 @@
 import Main_data
 import Login_credentials_data as login
-import admin_only_data
 
 import numpy as np
 #changing price
