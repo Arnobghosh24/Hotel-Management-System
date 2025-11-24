@@ -94,7 +94,7 @@ def Reception ():
             if(ch==1):
                 change=input("Enter the check out dates")
                 days=int(input("Enter the extra number of days the Guest will be staying in the hotel"))
-                Main_data.main_dict[g_room]["outstanding amount"]=Main_data.main_dict[g_room]["outstanding amount"]+(Main_data.main_dict[g_room]["Per-Day cost"]*days))
+                Main_data.main_dict[g_room]["outstanding amount"]=Main_data.main_dict[g_room]["outstanding amount"]+(Main_data.main_dict[g_room]["Per-Day cost"]*days)
                 Main_data.main_dict[g_room]["Date-Out"]=change
                 rem=(Main_data.main_dict[g_room]["Per-Day cost"]*days)
                 y="Extra days bill is"+str(rem)
