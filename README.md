@@ -56,7 +56,7 @@ Whether you're checking in guests, managing room cleaning schedules, handling se
 - Download all the project files and keep them in one folder
 
 **Step 2: Install Dependencies**
-```bash
+
 pip install numpy
 
 
