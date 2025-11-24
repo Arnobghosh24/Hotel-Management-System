@@ -63,7 +63,7 @@ pip install numpy
 
 
 
-First-Time Setup
+**First-Time Setup**
 When you run the system for the first time:
 
 Start as Administrator - You'll set up the initial admin account
@@ -74,7 +74,7 @@ Add Your Team - Create login credentials for reception, security, and cleaning s
 
 You're Ready! - Start managing your hotel operations
 
-🧪 Testing the System
+🧪** Testing the System**
 For New Users
 Start with Admin Role:
 
@@ -121,8 +121,7 @@ Housekeeping: Cleans the room next morning
 
 Check-out: Reception processes payment and generates bill
 
-📸 See It in Action!
-(Screenshots would be placed here showing:)
+
 
 🖥️ Main Login Screen - Where everyone starts their journey
 
@@ -134,19 +133,8 @@ Check-out: Reception processes payment and generates bill
 
 🛡️ Security Console - Vehicle and access tracking
 
-🧹 Cleaning Schedule - Housekeeping coordination
 
-(Since we can't include actual screenshots, you can add images later by:)
-
-Taking screenshots of your running application
-
-Saving them as PNG or JPG files
-
-Adding them to your project folder
-
-Updating this README with the image paths
-
-💡 Tips for Success
+💡 **Tips for Success**
 Start Small: Begin with 5-10 rooms to learn the system
 
 Practice First: Use test data before going live
@@ -155,7 +143,7 @@ Team Training: Show each staff member their specific features
 
 Regular Backups: The system uses temporary storage, so keep notes
 
-🤝 Need Help?
+🤝** Need Help?**
 If you run into any issues:
 
 Check that all Python files are in the same folder
