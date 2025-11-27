@@ -3,10 +3,10 @@ import restaurant
 
 def program(g_room):
     print("Enter Exit to Log out")
-    choice=input("Enter 1 to Issue a complain. \nEnter 2 to request room cleaning services. \nEnter 3 to order food")
+    choice=input("Enter 1 to Issue a complain. \nEnter 2 to request room cleaning services. \nEnter 3 to order food\n")
     while (choice not in ["1","2","3","Exit"]):
         print("Invalid Input")
-        choice=input("Enter 1 to Issue a complain. \nEnter 2 to request room cleaning services. \nEnter 3 to oreder food")
+        choice=input("Enter 1 to Issue a complain. \nEnter 2 to request room cleaning services. \nEnter 3 to oreder food. \nEnter Exit to log out\n")
     while(choice!="Exit"):
         if(choice=="1"):
             complain=input("Please write your complain")
@@ -21,6 +21,12 @@ def program(g_room):
             Main_data.main_dict[g_room]["outstanding amount"]+=price
             Main_data.bill[g_room].append(price)
             
-        choice=input("Enter 1 to Issue a complain. \nEnter 2 to request room cleaning services. \nEnter 3 to oreder food")
+        print("Enter Exit to log out.")
+        choice=input("Enter 1 to Issue a complain. \nEnter 2 to request room cleaning services. \nEnter 3 to oreder food.")
+        while (choice not in ["1","2","3","Exit"]):
+            print("Invalid Input")
+            print("Enter Exit to log out.")
+            choice=input("Enter 1 to Issue a complain. \nEnter 2 to request room cleaning services. \nEnter 3 to oreder food.")
+        
     print("\n\nLogging out \n\n\n\n")
         
