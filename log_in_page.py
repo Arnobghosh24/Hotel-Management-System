@@ -31,7 +31,7 @@ def program():
             if((userid==credentials.cleaning_credentials[x]["userid"] and password==credentials.cleaning_credentials[x]["Password"])):
                 fl=False
                 room_service.program()
-        if((userid in int(credentials.room_password) ) and (password==credentials.room_password[userid])):
+        if((str(userid) in credentials.room_password ) and (password==credentials.room_password[userid])):
             fl=False
             customers.program()
         
