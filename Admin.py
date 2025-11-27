@@ -304,6 +304,9 @@ def edit_food_menu():
 def admin():
     print("\nEnter 1 to initialize login credentials of reception and admin.  \nEnter 2 to initialize all the rooms. \nEnter 3 to remove a room. \nEnter 4 to add rooms. \nEnter 5 to change price of a room. \nEnter 6 to edit log in credentials. \nEnter 7 to see all log in credentials. \n Enter 8 to initialize the food menu. \nEnter Exit to Log out. ")
     choice=input()
+    while (choice not in ["1","2","3","4","5","6","7","8","Exit"]):
+        choice=input("Invalid Input")
+    
     while(choice!="Exit"):
         if(choice=="1"):
             id_password()
@@ -334,6 +337,8 @@ def admin():
 
         print("\nEnter 1 to initialize login credentials of reception and admin.  \nEnter 2 to initialize all the rooms. \nEnter 3 to remove a room. \nEnter 4 to add rooms. \nEnter 5 to change price of a room. \nEnter 6 to edit log in credentials. \nEnter 7 to see all log in credentials. \n Enter 8 to initialize the food menu. \nEnter Exit to Log out. ")
         choice=input()
+        while (choice not in ["1","2","3","4","5","6","7","8","Exit"]):
+            choice=input("Invalid Input")
 
     print("\n\nLoging out \n\n\n")
 
