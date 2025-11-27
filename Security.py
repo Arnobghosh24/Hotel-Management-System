@@ -4,6 +4,8 @@ import Main_data
 def program():
     print("Enter 1 to check in a car. \nEnter 2 to ckeck out a car. \nEnter 3 to print car check in list. \nEnter 4 to print car check out list.\nEnter Exit to Log out")
     s_choice=input("Enter your choice")
+    while (s_choice not in ["1","2","3","4","Exit"]):
+        s_choice=input("Invalid input. \nEnter your choice")
     while(s_choice!="Exit"):
         now=datetime.now()
         if(s_choice=="1"):
@@ -80,6 +82,8 @@ def program():
 
         print("Enter 1 to check in a car. \nEnter 2 to ckeck out a car. \nEnter 3 to print car check in list. \nEnter 4 to print car check out list.\nEnter Exit to Exit the program")
         s_choice=input("Enter your choice") 
+        while (s_choice not in ["1","2","3","4","Exit"]):
+            s_choice=input("Invalid input. \nEnter your choice")
 
     print("\n\nLogging out \n\n\n")
             
